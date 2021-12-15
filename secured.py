@@ -1,4 +1,4 @@
-_database = {
+_databases = {
     'default': {
     	# django db를 mysql로 사용하겠음
         'ENGINE': 'django.db.backends.mysql',

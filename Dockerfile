@@ -14,8 +14,7 @@ RUN pip3 install -r requirements.txt \
     && apt-get update \
     && apt-get install netcat-openbsd -y
 
-ENTRYPOINT chmod +x docker/docker-dev/wait.sh \
-    && ./docker/docker-dev/wait.sh \
-    && python manage.py runserver 0.0.0.0:8000
+ENTRYPOINT chmod +x wait.sh \
+    && ./wait.sh
 
 EXPOSE 8000

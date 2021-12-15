@@ -7,7 +7,7 @@ services:
     ports:
       - "80:8000"
     volumes:
-      - ../../.:/usr/src/app:z
+      - .:/usr/src/app:z
     depends_on:
       - db
   db:
