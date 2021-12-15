@@ -1,4 +1,6 @@
-# 최상위 디렉토리에 파일들이 위치하도록 해주세요
+# 도커 위에 django프로젝트와 db를 컴포즈 하여 올리는 파일입니다.
+- manage.py가 있는 최상위 디렉토리에서
+- docker-compose up
 
 ### ${app_name}/setting.py 
 -   상단에 from secured.py import _database
